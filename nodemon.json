@@ -1,0 +1,10 @@
+{
+
+    "_comment1": "what directory to monitor",
+    "watch" : ["."],
+    "_comment2": "specify a binary to execute the file with.",
+    "exec": "ts-node index.ts",
+    "_comment3": "By default, nodemon looks for files with the .js, .mjs, .coffee, .litcoffee, and .json extensions.",
+    "ext": "ts",
+    "ignore": ["*.test.js", "**/fixtures/**", "tests/"]
+}
